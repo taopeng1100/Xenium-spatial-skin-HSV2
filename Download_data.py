@@ -1,5 +1,3 @@
-Python
-
 import os
 import urllib.request
 from tqdm import tqdm
@@ -16,16 +14,16 @@ DATASETS = {
 "Xenium_Proseq_pt5_lesion.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt5_lesion.h5ad/content?preview=1&token={TOKEN}",
 "Xenium_Proseq_pt2_control.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt2_control.h5ad/content?preview=1&token={TOKEN}",
 "Xenium_Proseq_pt3_control.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt3_control.h5ad/content?preview=1&token={TOKEN}",
-"Xenium_Proseq_pt4_control.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt4_control.h5ad/content?preview=1&token={TOKEN}"
+"Xenium_Proseq_pt4_control.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt4_control.h5ad/content?preview=1&token={TOKEN}",
 
-"Xenium_Proseq_pt1_lesion_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt1_lesion_neighborhood.h5ad/content?preview=1&token={TOKEN}",
-"Xenium_Proseq_pt2_lesion_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt2_lesion_neighborhood.h5ad/content?preview=1&token={TOKEN}",
-"Xenium_Proseq_pt3_lesion_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt3_lesion_neighborhood.h5ad/content?preview=1&token={TOKEN}", 
-"Xenium_Proseq_pt4_lesion_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt4_lesion_neighborhood.h5ad/content?preview=1&token={TOKEN}",
-"Xenium_Proseq_pt5_lesion_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt5_lesion_neighborhood.h5ad/content?preview=1&token={TOKEN}",
-"Xenium_Proseq_pt2_control_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt2_control_neighborhood.h5ad/content?preview=1&token={TOKEN}",
-"Xenium_Proseq_pt3_control_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt3_control_neighborhood.h5ad/content?preview=1&token={TOKEN}",
-"Xenium_Proseq_pt4_control_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt4_control_neighborhood.h5ad/content?preview=1&token={TOKEN}"
+"Xenium_Proseq_pt1_lesion_neighborhood_261009.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt1_lesion_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}",
+"Xenium_Proseq_pt2_lesion_neighborhood_261009.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt2_lesion_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}",
+"Xenium_Proseq_pt3_lesion_neighborhood_261009.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt3_lesion_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}", 
+"Xenium_Proseq_pt4_lesion_neighborhood_261009.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt4_lesion_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}",
+"Xenium_Proseq_pt5_lesion_neighborhood_261009.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt5_lesion_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}",
+"Xenium_Proseq_pt2_control_neighborhood_261009.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt2_control_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}",
+"Xenium_Proseq_pt3_control_neighborhood.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt3_control_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}",
+"Xenium_Proseq_pt4_control_neighborhood_261009.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt4_control_neighborhood_261009.h5ad/content?preview=1&token={TOKEN}"
 
 }
 
