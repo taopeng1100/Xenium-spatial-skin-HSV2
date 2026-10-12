@@ -5,8 +5,8 @@ import urllib.request
 from tqdm import tqdm
 
 
-# Extracting your exact token for the configuration layout below
-TOKEN = "eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjIzZjI5MWNhLWU4NWEtNDMzYi1hYjkzLTdmM2ZkYzhkMGY1ZCIsImRhdGEiOnt9LCJyYW5kb20iOiIxMzE3NjIxYmVjMGQ5Njk0NGM1NzA0MWZkNDUxNDRjZSJ9.TJ0heZCADdLladQ6apFeh_aBDnf0COMLkdKrX12eljrBgGxc9iyrpA8ayhr3sKkDrLvNkAHob9z8DFx_ZABBrw"
+
+TOKEN = input("Please enter the secret Zenodo review token provided by the authors: ").strip()
 
 DATASETS = {
 "Xenium_Proseq_pt1_lesion.h5ad": f"https://zenodo.org/api/records/23324318/draft/files/Xenium_Proseq_pt1_lesion.h5ad/content?preview=1&token={TOKEN}",

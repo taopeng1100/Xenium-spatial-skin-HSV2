@@ -7,7 +7,7 @@ This repository contains the Jupyter Notebooks and reproducible analysis pipelin
 ## ?? Data Availability
 Due to GitHub's file size limitations (>100 MB), our processed `.h5ad` AnnData objects are archived securely on **Zenodo** under the DOI: `10.5281/zenodo.23324318`. 
 
-During the peer-review process, these files are set to **Restricted Access**. Reviewers and editors can access the record page directly via our [Zenodo Reviewer Access Link]( https://zenodo.org/records/23324318?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjIzZjI5MWNhLWU4NWEtNDMzYi1hYjkzLTdmM2ZkYzhkMGY1ZCIsImRhdGEiOnt9LCJyYW5kb20iOiIxMzE3NjIxYmVjMGQ5Njk0NGM1NzA0MWZkNDUxNDRjZSJ9.TJ0heZCADdLladQ6apFeh_aBDnf0COMLkdKrX12eljrBgGxc9iyrpA8ayhr3sKkDrLvNkAHob9z8DFx_ZABBrw).
+During the peer-review process, these files are set to **Restricted Access**. Reviewers and editors can access the record page directly via a TOKEN detailed in Download_data.py.
 
 ### ?? Dataset Details
 The dataset consists of **16 `.h5ad` files** encompassing 10x Xenium single-cell transcriptional profiling (475 genes) across:
